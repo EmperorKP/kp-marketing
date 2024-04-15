@@ -13,7 +13,7 @@ const plans = [
   {
     index: 0,
     name: "Basic",
-    price: " US $499",
+    price: " rs 1",
     features: [
       "Fully responsive on all screens",
 
@@ -128,7 +128,7 @@ const Pricing = () => {
                 <div className={plan.button}>
                   {index === 0 && (
                     <Link
-                      href="https://buy.stripe.com/test_7sIaGI65NeFj0VOcMM"
+                      href="https://buy.stripe.com/test_cN23eg8dV1SxgUMdQS"
                       className="rounded-3xl my-4  py-2 text-white w-full mx-auto items-center flex justify-center bg-gradient-to-r from-emerald-500 to-blue-300"
                     >
                       Buy Now
